@@ -1,0 +1,15 @@
+.subTitle {
+    display: flex;
+    width: 700px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.subtitleList {
+    list-style-type: none;
+}
+
+.subLink {
+    text-decoration: none;
+}
