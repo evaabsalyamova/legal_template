@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Main from "./Main";
 import styles from "./styles.module.css";
 import Subtitle from "./Subtitle";
 
@@ -7,6 +8,7 @@ const MainPage = () => {
     <div className={styles.mainPage}>
       <Header />
       <Subtitle />
+      <Main />
     </div>
   );
 };

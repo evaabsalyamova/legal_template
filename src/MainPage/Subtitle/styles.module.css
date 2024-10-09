@@ -1,13 +1,15 @@
 .subTitle {
-    display: flex;
-    width: 700px;
-    height: 20px;
-    background-color: aqua;
-    border: 1px solid black;
+    width: 800px;
+    height: 45px;
+    /* background-color: aqua;
+    border: 1px solid black; */
+    margin: 40px 0;
 }
 
 .subtitleList {
+    display: flex;
     list-style-type: none;
+    gap: 48px;
 }
 
 .subLink {
