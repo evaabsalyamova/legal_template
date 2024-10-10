@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.footerInfo {
+    width: 712px;
+    height: 164px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #F4F7FA;
+    box-shadow: 0px 4px 100px 0px #D0DAE391;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    margin-top: 32px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #303030;
+    margin-top: 8px;
+}
