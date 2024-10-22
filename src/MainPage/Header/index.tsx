@@ -14,6 +14,10 @@ const Header = () => {
         <div className={styles.contact}>8 (800) 511-37-68</div>
         <button className={styles.login}>Войти</button>
       </div>
+      <div className={styles.mobileButtons}>
+        <button className={styles.headerInfo}>{icons.phone}</button>
+        <button className={styles.headerNav}>{icons.navigation}</button>
+      </div>
     </div>
   );
 };
