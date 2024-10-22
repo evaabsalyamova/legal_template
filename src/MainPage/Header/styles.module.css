@@ -62,13 +62,27 @@
     display: none;
 }
 
-@media (max-width:1000px) {
+@media (max-width:320px) {
     .contactInfo {
         display: none;
     }
 
     .title {
         display: none;
+    }
+
+    .logoBlock {
+        align-items: center;
+    }
+
+    .logo {
+        height: 30px;
+        width: 90px;
+    }
+
+    .logo svg {
+        height: 100%;
+        width: 100%;
     }
 
     .mobileButtons {
